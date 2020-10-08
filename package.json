@@ -1,0 +1,37 @@
+{
+    "name": "@klam09/stylelint-config-klam09",
+    "version": "1.0.0",
+    "description": "Personal lint config by klam09",
+    "main": "index.js",
+    "scripts": {
+        "eslint": "eslint '*.js' --fix"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/klam09/stylelint-config-klam09.git"
+    },
+    "keywords": [
+        "lint",
+        "eslint",
+        "stylelint"
+    ],
+    "author": "klam09",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/klam09/stylelint-config-klam09/issues"
+    },
+    "homepage": "https://github.com/klam09/stylelint-config-klam09#readme",
+    "devDependencies": {
+        "prettier": "^2.1.2",
+        "stylelint": "^13.7.2",
+        "stylelint-config-airbnb": "^0.0.0",
+        "stylelint-order": "^4.1.0",
+        "stylelint-scss": "^3.18.0"
+    },
+    "peerDependencies": {
+        "stylelint": "^8.0.0",
+        "stylelint-config-airbnb": "0.0.0",
+        "stylelint-order": "^0.7.0",
+        "stylelint-scss": "^1.2.1"
+    }
+}
